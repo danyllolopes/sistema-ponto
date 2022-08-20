@@ -1,0 +1,136 @@
+.title {
+  padding-top: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.09rem;
+  font-weight: 600;
+  color: #524d60;
+  margin-bottom: 20px;
+}
+
+.title::before {
+  content: "";
+  display: inline-block;
+  background: url("../../Assets/icons/funcionario.svg") no-repeat center center;
+  height: 18px;
+  width: 18px;
+  position: relative;
+  top: 3px;
+  margin-right: 5px;
+}
+
+.pesquisa {
+  max-width: 95%;
+  background: #FFFFFF;
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.pagina label {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: center;
+  color: #797979;
+  margin-right: 14px;
+}
+
+.pagina input {
+  width: 70px;
+  padding: 10px 15px;
+  border: 0.5px solid #d3d3d3;
+  border-radius: 5px;
+  border-radius: 6px;
+  background: #fff;
+  margin-right: 10px;
+  color: #656565;
+  font-size: 13px;
+  font-weight: 400;
+  box-shadow: 0 4px 8px rgba(211, 211, 211, 0.1);
+}
+
+.pagina input:focus,
+input:hover {
+  outline: none;
+  box-shadow: 0 4px 8px rgba(211, 211, 211, 0.3);
+  border: 1px solid rgba(211, 211, 211, 0.7);
+}
+
+.inputsInfo {
+  display: flex;
+  align-items: center;
+
+}
+
+
+.status input,
+.procura input {
+  padding: 10px 15px;
+  border: 0.5px solid #d3d3d3;
+  border-radius: 5px;
+  border-radius: 6px;
+  background: #fff;
+  margin-right: 10px;
+  color: #656565;
+  font-size: 13px;
+  font-weight: 400;
+  box-shadow: 0 4px 8px rgba(211, 211, 211, 0.1);
+}
+
+.procura input {
+  padding-left: 40px;
+}
+
+.status input::placeholder,
+.procura input::placeholder {
+  color: #B9B9C3;
+}
+
+
+.status input {
+  width: 230px;
+}
+
+.procura input {
+  width: 570px;
+}
+
+.procura input:focus,
+.status input:focus,
+.procura input:hover,
+.status input:hover {
+  outline: none;
+  box-shadow: 0 4px 8px rgba(211, 211, 211, 0.3);
+  border: 1px solid rgba(211, 211, 211, 0.7);
+}
+
+.seta {
+  background: transparent;
+  border: none;
+  position: absolute;
+  cursor: pointer;
+  left: 655px;
+  top: 292px;
+}
+
+.seta svg {
+  width: 20px;
+  height: 20px;
+}
+
+.lupa {
+  background: transparent;
+  border: none;
+  position: absolute;
+  cursor: pointer;
+  right: 630px;
+  top: 292px;
+}
+
+.lupa svg {
+  width: 20px;
+  height: 20px;
+}

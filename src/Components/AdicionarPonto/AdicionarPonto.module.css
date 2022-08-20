@@ -1,0 +1,115 @@
+.title {
+  padding-top: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.09rem;
+  font-weight: 600;
+  color: #524d60;
+  margin-bottom: 20px;
+}
+
+.title::before {
+  content: "";
+  display: inline-block;
+  background: url("../../Assets/icons/relogio-amarelo.svg") no-repeat center center;
+  height: 18px;
+  width: 18px;
+  position: relative;
+  top: 3px;
+  margin-right: 5px;
+}
+
+.form {
+  max-width: 750px;
+  padding: 30px 20px;
+  background: #ffffff;
+  border-radius: 6px;
+}
+
+
+.formItemns {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+}
+
+.formItemns label {
+  display: block;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #656565;
+  margin-bottom: 5px;
+}
+
+.formItemns input,
+.formItemns select {
+  padding: 10px 15px;
+  border: 0.5px solid #d3d3d3;
+  border-radius: 6px;
+  background: #fff;
+  margin-right: 10px;
+  color: #656565;
+  font-size: 13px;
+  font-weight: 400;
+  box-shadow: 0 4px 8px rgba(211, 211, 211, 0.1);
+}
+
+.formItemns select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+}
+
+.formItemns input:focus,
+input:hover,
+select:focus,
+select:hover {
+  outline: none;
+  box-shadow: 0 4px 8px rgba(211, 211, 211, 0.3);
+  border: 1px solid rgba(211, 211, 211, 0.7);
+}
+
+
+.formItemns div select {
+  width: 300px;
+  position: relative;
+}
+
+.seta {
+  background: transparent;
+  border: none;
+  position: absolute;
+  left: 270px;
+  top: 32px;
+  cursor: pointer;
+}
+
+.seta svg {
+  width: 20px;
+  height: 20px;
+}
+
+.formItemns div:nth-child(2) input {
+  width: 180px;
+
+}
+
+.btn {
+  margin-top: 22px;
+  text-align: center;
+  border: none;
+  background: #ffb800;
+  padding: 10px 15px;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  transition: .3s ease;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.btn:hover {
+  background: #e7a600;
+}
